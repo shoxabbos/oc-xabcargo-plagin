@@ -1,0 +1,14 @@
+fields:
+    name:
+        label: 'svetlana.driverapp::lang.car_type.name'
+        span: auto
+        type: text
+    icon:
+        label: 'svetlana.driverapp::lang.car_type.icon'
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload

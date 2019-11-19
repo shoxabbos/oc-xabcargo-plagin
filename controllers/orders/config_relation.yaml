@@ -1,0 +1,22 @@
+# ===================================
+#  Relation Behavior Config
+# ===================================
+
+orders:
+    label: 'svetlana.driverapp::lang.order.create_order'
+    view:
+        list: $/svetlana/driverapp/models/order/columns.yaml
+        recordUrl: 'svetlana/driverapp/orders/update/:id'
+        toolbarButtons: link|unlink
+tasks:
+    label: 'svetlana.driverapp::lang.order.create_task'
+    view:
+        list: $/svetlana/driverapp/models/order/columns.yaml
+        recordUrl: 'svetlana/driverapp/orders/update/:id'
+        toolbarButtons: link|unlink
+statuses:
+    label: 'svetlana.driverap::lang.order.statuses'
+    view:
+        list: $/svetlana/driverapp/models/status/columns.yaml
+        recordUrl: 'svetlana/driverapp/statuses/update/:id'
+        toolbarButtons: link|unlink

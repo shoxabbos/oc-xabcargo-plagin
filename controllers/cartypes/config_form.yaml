@@ -1,0 +1,10 @@
+name: CarTypes
+form: $/svetlana/driverapp/models/cartype/fields.yaml
+modelClass: Svetlana\DriverApp\Models\CarType
+defaultRedirect: svetlana/driverapp/cartypes
+create:
+    redirect: 'svetlana/driverapp/cartypes/update/:id'
+    redirectClose: svetlana/driverapp/cartypes
+update:
+    redirect: svetlana/driverapp/cartypes
+    redirectClose: svetlana/driverapp/cartypes

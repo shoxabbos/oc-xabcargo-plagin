@@ -1,0 +1,10 @@
+name: Orders
+form: $/svetlana/driverapp/models/order/fields.yaml
+modelClass: Svetlana\DriverApp\Models\Order
+defaultRedirect: svetlana/driverapp/orders
+create:
+    redirect: 'svetlana/driverapp/orders/update/:id'
+    redirectClose: svetlana/driverapp/orders
+update:
+    redirect: svetlana/driverapp/orders
+    redirectClose: svetlana/driverapp/orders

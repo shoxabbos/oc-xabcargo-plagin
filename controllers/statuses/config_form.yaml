@@ -1,0 +1,10 @@
+name: Statuses
+form: $/svetlana/driverapp/models/status/fields.yaml
+modelClass: Svetlana\DriverApp\Models\Status
+defaultRedirect: svetlana/driverapp/statuses
+create:
+    redirect: 'svetlana/driverapp/statuses/update/:id'
+    redirectClose: svetlana/driverapp/statuses
+update:
+    redirect: svetlana/driverapp/statuses
+    redirectClose: svetlana/driverapp/statuses

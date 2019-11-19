@@ -1,0 +1,9 @@
+user:
+    label: Пользователь
+    nameFrom: name
+    descriptionFrom: description
+    list: $/rainlab/user/models/user/columns.yaml
+    span: full
+    type: recordfinder
+    tab: 'svetlana.driverapp::lang.order.user'
+    scope: isClient 

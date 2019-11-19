@@ -1,0 +1,30 @@
+user[name]:
+    label: 'svetlana.driverapp::lang.order.users.name'
+    type: text
+    disabled: true
+    tab: 'svetlana.driverapp::lang.order.user'
+    span: left
+user[avatar]:
+    label: 'svetlana.driverapp::lang.order.users.avatar'
+    type: fileupload
+    disabled: true
+    tab: 'svetlana.driverapp::lang.order.user'
+    span: right
+user[surname]:
+    label: 'svetlana.driverapp::lang.order.users.surname'
+    type: text
+    disabled: true
+    tab: 'svetlana.driverapp::lang.order.user'
+    span: left
+user[username]:
+    label: 'svetlana.driverapp::lang.order.users.phone'
+    type: text
+    disabled: true
+    tab: 'svetlana.driverapp::lang.order.user'
+    span: left
+user[email]:
+    label: E-mail
+    type: text
+    disabled: true
+    tab: 'svetlana.driverapp::lang.order.user'
+    span: left

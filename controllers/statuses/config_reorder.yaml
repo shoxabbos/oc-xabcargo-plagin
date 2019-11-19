@@ -1,0 +1,4 @@
+title: Statuses
+modelClass: Svetlana\DriverApp\Models\Status
+toolbar:
+    buttons: reorder_toolbar

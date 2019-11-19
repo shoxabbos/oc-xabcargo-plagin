@@ -1,0 +1,33 @@
+plugin:
+    name: 'svetlana.driverapp::lang.plugin.name'
+    description: 'svetlana.driverapp::lang.plugin.description'
+    author: Svetlana
+    icon: oc-icon-archive
+    homepage: ''
+permissions:
+    manage_orders:
+        tab: 'svetlana.driverapp::lang.plugin.name'
+        label: 'svetlana.driverapp::lang.order.manage_orders'
+    manage_car_types:
+        tab: 'svetlana.driverapp::lang.plugin.name'
+        label: 'svetlana.driverapp::lang.order.manage_car_types'
+navigation:
+    driverapp:
+        label: 'svetlana.driverapp::lang.menu.orders'
+        url: svetlana/driverapp/orders
+        icon: icon-automobile
+        permissions:
+            - manage_orders
+        sideMenu:
+            orders:
+                label: 'svetlana.driverapp::lang.menu.orders'
+                url: svetlana/driverapp/orders
+                icon: icon-shopping-cart
+                permissions:
+                    - manage_orders
+            car-types:
+                label: 'svetlana.driverapp::lang.menu.car_types'
+                url: svetlana/driverapp/cartypes
+                icon: icon-car
+                permissions:
+                    - manage_car_types

@@ -1,0 +1,58 @@
+columns:
+    id:
+        label: id
+        type: number
+        searchable: true
+        sortable: true
+    weight:
+        label: 'svetlana.driverapp::lang.order.weight'
+        type: number
+        searchable: false
+        sortable: true
+    cost:
+        label: 'svetlana.driverapp::lang.order.cost'
+        type: number
+        sortable: true
+    comment:
+        label: 'svetlana.driverapp::lang.order.comment'
+        type: text
+        searchable: true
+        invisible: true
+    user:
+        label: 'svetlana.driverapp::lang.order.user'
+        type: text
+        searchable: true
+        sortable: true
+        select: 'concat(name, '' '', surname)'
+        relation: user
+    driver:
+        label: 'svetlana.driverapp::lang.order.driver'
+        type: text
+        searchable: true
+        sortable: true
+        select: 'concat(name, '' '', surname)'
+        relation: driver
+        default: 'svetlana.driverapp::lang.order.undefined'
+    delivered_at:
+        label: 'svetlana.driverapp::lang.order.delivered_at'
+        type: datetime
+        searchable: true
+        sortable: true
+    car_type:
+        label: 'svetlana.driverapp::lang.order.car_type'
+        type: text
+        searchable: true
+        sortable: true
+        select: name
+        relation: car_type
+    created_at:
+        label: 'svetlana.driverapp::lang.order.created_at'
+        type: datetime
+        searchable: true
+        invisible: true
+        sortable: true
+    deleted_at:
+        label: 'svetlana.driverapp::lang.order.deleted_at'
+        type: datetime
+        invisible: true
+        sortable: true

@@ -1,0 +1,13 @@
+fields:
+    name:
+        label: name
+        span: auto
+        type: text
+    code:
+        label: code
+        span: auto
+        type: text
+    is_active:
+        label: 'Is active'
+        span: auto
+        type: switch

@@ -1,0 +1,29 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table svetlana_driverapp_order'
+    - builder_table_create_svetlana_driverapp_order.php
+1.0.3:
+    - 'Created table svetlana_driverapp_car_type'
+    - builder_table_create_svetlana_driverapp_car_type.php
+1.0.4:
+    - 'Updated table svetlana_driverapp_order'
+    - builder_table_update_svetlana_driverapp_order.php
+1.0.5:
+    - 'Updated table svetlana_driverapp_order'
+    - builder_table_update_svetlana_driverapp_order_2.php
+1.0.6:
+    - 'Updated table svetlana_driverapp_order'
+    - builder_table_update_svetlana_driverapp_order_3.php
+1.0.7:
+    - 'Updated table svetlana_driverapp_order'
+    - builder_table_update_svetlana_driverapp_order_4.php
+1.0.8:
+    - 'update table users'
+    - migration108.php
+1.0.9:
+    - 'Created table svetlana_driverapp_statuses'
+    - builder_table_create_svetlana_driverapp_statuses.php
+1.0.10:
+    - 'Updated table svetlana_driverapp_order'
+    - builder_table_update_svetlana_driverapp_order5.php
